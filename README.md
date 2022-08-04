@@ -26,6 +26,3 @@ python train.py -i test_images/ -o Results/
 # X4尺度
 python train.py -i test_images/ -o Results/ --X4
 ```
-
-## Examples
-![Supplementary](https://github.com/Luision/ISRNet/blob/main/test_images/im_1.png)
