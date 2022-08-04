@@ -13,7 +13,7 @@ Pillow == 9.0.1
 
 ## 克隆项目
 ```
-git clone github.com/prote376/DBPI-BlindSR
+git clone https://github.com/Luision/ISRNet
 ```
 
 ## 测试
