@@ -1,31 +1,29 @@
-# DBPI-BlindSR
-This code is official implementation of our paper. Please cite the below paper if this code is helpful.
+# ISRNet
+本仓库是论文《轻量可逆的零样本图像超分网络》的项目代码，参考了DBPI的官方代码（https://github.com/prote376/DBPI-BlindSR）
 
-Jonghee Kim, Chanho Jung, Changick Kim, "Dual Back-Projection-Based Internal Learning for Blind Super-Resolution," IEEE Signal Processing Letters, vol. 27, pp. 1190-1194, Jun. 2020.
-
-This code is based on KernelGAN (https://github.com/sefibk/KernelGAN)
-
-## Prerequisites
+## 依赖包
 ```
-Pytorch == 1.3.0
-torchvision == 0.4.1
-numpy == 1.17.2
-scipy == 1.3.1
-tqdm == 4.36.1
-Pillow == 6.2.0
+Pytorch == 1.11.0
+torchvision == 0.12.0
+numpy == 1.21.5
+scipy == 1.7.3
+tqdm == 4.63.0
+Pillow == 9.0.1
 ```
 
-## Installing
+## 克隆项目
 ```
 git clone github.com/prote376/DBPI-BlindSR
 ```
 
-## Running the tests
+## 测试
+把测试的文件放置在test_images文件夹，在命令行输入以下代码，超分结果会输出在Results文件夹
+
 ```
-# for X2 SR
+# X2尺度
 python train.py -i test_images/ -o Results/
 
-# for X4 SR
+# X4尺度
 python train.py -i test_images/ -o Results/ --X4
 ```
 
