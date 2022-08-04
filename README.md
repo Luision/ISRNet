@@ -1,7 +1,7 @@
 # ISRNet
 本仓库是论文《轻量可逆的零样本图像超分网络》的项目代码。
 ISRNet的超分结果以及对应的模型文件可自行下载。
-+ [reuslts]()
++ [reuslts](https://pan.baidu.com/s/17FuNxJz_y0htK1XDYwj0qw)，提取码：eg5j
 + [DIV2KRK数据集](https://github.com/sefibk/KernelGAN)
 
 ## 依赖包
